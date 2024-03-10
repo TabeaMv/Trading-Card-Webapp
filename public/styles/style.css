@@ -15,42 +15,13 @@ body {
     background-repeat: no-repeat;
 }
 
-/*
-header {
-    background-color: #0084ff;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    margin: 0;
-}
-
-main {
-    padding: 20px;
-}
-
-.instructions {
-    margin-bottom: 20px;
-}
-
 .buttons {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Use flexbox to layout items */
+    justify-content: center; /* Center items horizontally */
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0 10px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 5px;
+.buttons a {
+    max-width: 200px; /* Set maximum width for the buttons */
+    width: 30%; /* Set a percentage width for responsiveness */                                                                                                                                                                                                                             
+    margin: 0 10px; /* Add some margin between buttons */
 }
-
-.btn:hover {
-    background-color: #0056b3;
-}
-*/
