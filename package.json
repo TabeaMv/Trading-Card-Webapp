@@ -1,0 +1,22 @@
+{
+  "name": "trading-cards",
+  "version": "1.0.0",
+  "description": "Creating a webapp to play a trading card game in context to League of Legends and player cards from the Esports Club Frankfurt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests specified'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "card",
+    "game",
+    "trading",
+    "league-of-legends",
+    "webapp"
+  ],
+  "author": "Tabea Merlevede",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
