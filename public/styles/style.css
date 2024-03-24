@@ -23,6 +23,25 @@ div {
 
 .buttons a {
     max-width: 200px; /* Set maximum width for the buttons */
-    width: 30%; /* Set a percentage width for responsiveness */                                                                                                                                                                                                                             
+    width: 30%; /* Set a percentage width for responsiveness */                                                                                                                                                                                                                      
     margin: 0 10px; /* Add some margin between buttons */
+}
+
+.button-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.button-overlay h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
 }
