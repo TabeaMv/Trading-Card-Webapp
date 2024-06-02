@@ -11,4 +11,5 @@
 
 Der Befehl "nuxt" ist entweder falsch geschrieben oder
 konnte nicht gefunden werden.
+
 -> npm install
