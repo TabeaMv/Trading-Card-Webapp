@@ -5,8 +5,8 @@
                 <img :src="player.image" alt="player img" class="mx-auto my-7">
             </div>
             <div class="p-7">
-                <h2 class="text-4x1 my-7">{{ player.title }}</h2>
-                <p class="text-x1 my-7">Price - ${{ player.price }}</p>
+                <h2 class="text-4xl my-7">{{ player.title }}</h2>
+                <p class="text-xl my-7">Price - ${{ player.price }}</p>
                 <h3 class="font-bold border-b-2 mb-4 pb-2">Player description:</h3>
                 <p class="mb-7">{{ player.description }}</p>
             </div>
