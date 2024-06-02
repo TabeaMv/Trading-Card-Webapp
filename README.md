@@ -5,8 +5,8 @@
 
 ## Issue Solving when running the webapp
 ### Issue 1
-> dev \\
-> nuxt dev -o
+-> dev \\
+-> nuxt dev -o
 
 Der Befehl "nuxt" ist entweder falsch geschrieben oder
 konnte nicht gefunden werden.
