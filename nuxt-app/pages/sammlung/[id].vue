@@ -1,8 +1,6 @@
 <template>
     <div>
-        <p>{{ player.title }}</p>
-        <p>{{ player.price }}</p>
-        <p>{{ player.id }}</p>
+        <CardDetails :player="player" />
     </div>
 </template>
 
@@ -13,9 +11,6 @@
     //fetch the product
     const { data: player } = await useFetch(uri)
 
-    definePageMeta({
-        layout: 'sammlung-layout'
-    })
 </script>
 
 <style scoped>

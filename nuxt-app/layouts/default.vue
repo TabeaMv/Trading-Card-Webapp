@@ -7,7 +7,7 @@
                     <li><NuxtLink to="/"> Home </NuxtLink></li>
                     <li><NuxtLink to="/ziehen"> Ziehen </NuxtLink></li>
                     <li><NuxtLink to="/tauschen"> Tauschen </NuxtLink></li>
-                    <li><NuxtLink to="/sammlung" class="btn"> Sammlung </NuxtLink></li>
+                    <li><NuxtLink to="/sammlung" class="btn always-white"> Sammlung </NuxtLink></li>
                 </ul>
             </nav>
         </header>
@@ -25,5 +25,8 @@
     }
     .always-crimson {
         color: crimson;
+    }
+    .always-white {
+        color: white;
     }
 </style>

@@ -12,9 +12,6 @@
     // fetch the products
     const { data: players } = await useFetch('https://fakestoreapi.com/products');
 
-    definePageMeta({
-        layout: "sammlung-layout",
-    })
 </script>
 
 <style scoped>
