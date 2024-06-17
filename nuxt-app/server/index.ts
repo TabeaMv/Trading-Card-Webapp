@@ -1,12 +1,13 @@
 import mongoose from 'mongoose'
+import { Nitro } from "nitropack";
 
-export default defineNitroPlugin(() => {
+export default async (_nitroApp: Nitro) => {
     const config = useRuntimeConfig();
     
     try {
-        mongoose.connect(config.mongodbUri);
+        await mongoose.connect(config.mongodbUri);
         console.log("Connected to MongoDB");
     } catch (e) {
         console.error(e);
     }
-});
+};

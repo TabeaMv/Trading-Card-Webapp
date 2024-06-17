@@ -8,19 +8,25 @@ const CardSchema = new Schema({
         type: String,
     },
     stars: {
-        type: String,
+        type: Number,
     },
     division: {
-        type: String,
+        type: Number,
     },
     macro: {
-        type: String,
+        type: Number,
     },
     mechanics: {
-        type: String,
+        type: Number,
     },
     gold: {
-        type: String,
+        type: Number,
+    },
+    rarity: {
+        type: String
+    },
+    rating: {
+        type: Number,
     },
 });
 export const Card =  model<any>('Card', CardSchema);
