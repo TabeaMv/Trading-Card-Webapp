@@ -1,7 +1,7 @@
 import { Schema, model } from 'mongoose'
 
 const CardSchema = new Schema({
-    name: {
+    ign: {
         type: String,
     },
     team: {
