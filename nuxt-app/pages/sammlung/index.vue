@@ -10,9 +10,7 @@
 
 <script setup>
     // fetch the products
-    const { data } = await useFetch('http://localhost:3000/api/cards');
-    console.log(data.value);
-    const players = data.value.cards;
+    const { data : players } = await useFetch('https://izch9irml3.execute-api.eu-central-1.amazonaws.com/cards');
 
 </script>
 
