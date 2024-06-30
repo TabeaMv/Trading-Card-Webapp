@@ -13,7 +13,7 @@
         </header>
 
         <!-- output the page content -->
-        <div class="container mx-auto p-4">
+        <div class="mx-auto p-4 bg-fixed bg-cover bg-center min-h-screen" style="background-image: url('/Background.svg');">
             <slot />
         </div>
     </div>
