@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <header class="shadow-sm bg-white">
+    <div class="bg-fixed bg-cover bg-center min-h-screen" style="background-image: url('/Background.svg');"> <!-- set the background image -->
+        <header class="sticky top-0"> <!-- fixing the nav bar -->
             <nav class="container mx-auto p-4 flex justify-between">
                 <NuxtLink to="/" class="font-bold always-crimson"> ECF LEGENDS</NuxtLink>
                 <ul class="flex gap-4">
@@ -13,7 +13,7 @@
         </header>
 
         <!-- output the page content -->
-        <div class="mx-auto p-4 bg-fixed bg-cover bg-center min-h-screen" style="background-image: url('/Background.svg');">
+        <div class="mx-auto p-4">
             <slot />
         </div>
     </div>
@@ -29,4 +29,7 @@
     .always-white {
         color: white;
     }
+    header {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  }
 </style>
