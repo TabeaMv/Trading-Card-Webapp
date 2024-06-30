@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   nitro: { plugins: ["~/server/index.ts"], },
   runtimeConfig: {mongodbUri: process.env.MONGODB_URI},
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', "nuxt-mongoose"],
+  modules: ['@nuxtjs/tailwindcss', "nuxt-mongoose", "@nuxt/image"],
   app: {
     head: {
       title: "ECF Legends",

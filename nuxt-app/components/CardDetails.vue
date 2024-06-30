@@ -1,8 +1,8 @@
 <template>
     <div class="card">
-        <div class="grid gap-10">
+        <div class="grid grid-cols-2 gap-10">
             <div class="p-7">
-                <img :src="player.image" alt="player img" class="mx-auto my-7">
+                <NuxtImg :src="'https://d2c66v0b507n0b.cloudfront.net/' + player.id + '.png'" alt="Player thumb" class="mx-auto my-7"></NuxtImg>
             </div>
             <div class="p-7">
                 <h2 class="text-4xl my-7">{{ player.id }}</h2>
