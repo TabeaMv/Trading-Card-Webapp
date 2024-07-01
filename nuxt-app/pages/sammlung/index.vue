@@ -17,7 +17,11 @@
 <style scoped>
     .grid-container { /* this class describes how the cards on the collection page are arranged */
     display: grid;
-    grid-gap: 1rem; /* Adjust the gap between cards */
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    grid-row-gap: 5rem; /* Adjust the gap between cards */
+    grid-column-gap: 10rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /* This will create columns that are at least 300px wide and grow to fill the available space, 
         adjusting the number of columns based on the container's width */
