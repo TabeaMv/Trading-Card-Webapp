@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="always-white">
         <h2>Home</h2>
         <p>TEST 123456789</p>
     </div>
@@ -18,6 +18,9 @@
     p 
     {
         margin: 20px 0;
+    }
+    .always-white {
+        color: white;
     }
 
 </style>

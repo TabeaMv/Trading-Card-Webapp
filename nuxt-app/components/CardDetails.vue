@@ -2,7 +2,7 @@
     <div class="card">
         <div class="grid grid-cols-2 gap-10">
             <div class="p-7">
-                <NuxtImg :src="'https://d2c66v0b507n0b.cloudfront.net/' + player.id + '.png'" alt="Player thumb" class="mx-auto my-7"></NuxtImg>
+                <img :src="player.imageURL_basic" @error="onError" :alt="player.id" class="thumb">
             </div>
             <div class="p-7">
                 <h2 class="text-4xl my-7">{{ player.id }}</h2>
@@ -19,6 +19,10 @@
 
 <script setup>
     const { player } = defineProps(["player"])
+
+    const onError = (event) => {
+        event.target.src = '/card_back.png'; // this will show the backside of the card if no URL to the player card is given in the player data DB
+    }
 </script>
     
 <style scoped>
